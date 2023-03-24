@@ -2,18 +2,20 @@ const ContactPage = () => {
   return (
     <form>
       <div>
-        <label>Name</label>
-        <input />
+        <label for="name">Name</label>
+        <input name="name" required="true" />
       </div>
       <div>
-        <label>Email</label>
-        <input />
+        <label for="Email">Email</label>
+        <input name="Email" required="true" type="email" />
       </div>
       <div>
-        <label>Message</label>
-        <input />
+        <label for="Message">Message</label>
+        <input name="Message" required="true" />
       </div>
       <button type="submit">Submit</button>
     </form>
   );
 };
+
+export default ContactPage;
