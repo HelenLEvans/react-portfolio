@@ -1,10 +1,11 @@
 import "./App.css";
 import PortfolioPage from "./pages/PortfolioPage";
 import ContactPage from "./pages/ContactPage";
+import AboutMe from "./pages/AboutMePage";
 import { useState } from "react";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("Portfolio");
+  const [currentPage, setCurrentPage] = useState("About Me");
   return (
     <div className="vh-100">
       <div className="border border-primary">
@@ -35,6 +36,7 @@ function App() {
       </div>
       {currentPage === "Contact" && <ContactPage />}
       {currentPage === "Portfolio" && <PortfolioPage />}
+      {currentPage === "About Me" && <AboutMe />}
     </div>
   );
 }
