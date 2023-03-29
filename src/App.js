@@ -1,4 +1,3 @@
-import "./App.css";
 import PortfolioPage from "./pages/PortfolioPage";
 import ContactPage from "./pages/ContactPage";
 import AboutMe from "./pages/AboutMePage";
@@ -8,10 +7,10 @@ function App() {
   const [currentPage, setCurrentPage] = useState("About Me");
   return (
     <div className="vh-100">
-      <div className="border border-primary">
-        Navbar
+      <nav>
         <ul>
           <li
+            className={currentPage === "About Me" && "active"}
             onClick={() => {
               setCurrentPage("About Me");
             }}
@@ -19,6 +18,7 @@ function App() {
             About Me
           </li>
           <li
+            className={currentPage === "Portfolio" && "active"}
             onClick={() => {
               setCurrentPage("Portfolio");
             }}
@@ -26,6 +26,7 @@ function App() {
             Portfolio
           </li>
           <li
+            className={currentPage === "Contact" && "active"}
             onClick={() => {
               setCurrentPage("Contact");
             }}
@@ -33,7 +34,7 @@ function App() {
             Contact
           </li>
         </ul>
-      </div>
+      </nav>
       {currentPage === "Contact" && <ContactPage />}
       {currentPage === "Portfolio" && <PortfolioPage />}
       {currentPage === "About Me" && <AboutMe />}
