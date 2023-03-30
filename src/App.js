@@ -2,6 +2,7 @@ import PortfolioPage from "./pages/PortfolioPage";
 import ContactPage from "./pages/ContactPage";
 import AboutMe from "./pages/AboutMePage";
 import { useState } from "react";
+import Footer from "./components/footer/index.js";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About Me");
@@ -38,6 +39,7 @@ function App() {
       {currentPage === "Contact" && <ContactPage />}
       {currentPage === "Portfolio" && <PortfolioPage />}
       {currentPage === "About Me" && <AboutMe />}
+      <Footer />
     </div>
   );
 }
