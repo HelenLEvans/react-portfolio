@@ -7,8 +7,11 @@ const ProjectCard = ({ project }) => {
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>
-        <a href="www.google.com" className="btn btn-primary">
-          Go somewhere
+        <a href={deployedLink} className="btn btn-primary">
+          Deployed App
+        </a>
+        <a href={githubLink} className="btn btn-primary">
+          GitHub Repository
         </a>
       </div>
     </div>
