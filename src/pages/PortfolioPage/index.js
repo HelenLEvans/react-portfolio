@@ -48,7 +48,7 @@ const PortfolioPage = () => {
   ];
 
   return (
-    <div className="d-flex flex-wrap justify-content-around h-100 border border-danger">
+    <div className="d-flex flex-wrap justify-content-around h-100">
       {projectsArray.map((project) => {
         return <ProjectCard project={project} />;
       })}
