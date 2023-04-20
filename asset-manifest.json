@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fcd4491.css",
-    "main.js": "/static/js/main.92dc4fd5.js",
-    "static/media/MeetIO.png": "/static/media/MeetIO.a215476c95460a0215a4.png",
-    "static/media/TarotTeller.png": "/static/media/TarotTeller.39843035d65f9080b7bc.png",
-    "static/media/biopic.jpg": "/static/media/biopic.e6d932e35870c2465328.jpg",
-    "static/media/RegexTutorial.png": "/static/media/RegexTutorial.7306fd16894118a93612.png",
-    "static/media/PasswordGenerator.png": "/static/media/PasswordGenerator.4c85154e5b467ef83b8f.png",
-    "static/media/NoteTaker.png": "/static/media/NoteTaker.499a6ad52640d1520fe3.png",
-    "index.html": "/index.html",
-    "main.9fcd4491.css.map": "/static/css/main.9fcd4491.css.map",
-    "main.92dc4fd5.js.map": "/static/js/main.92dc4fd5.js.map"
+    "main.css": "/react-portfolio/static/css/main.9fcd4491.css",
+    "main.js": "/react-portfolio/static/js/main.f8d168cd.js",
+    "static/media/MeetIO.png": "/react-portfolio/static/media/MeetIO.a215476c95460a0215a4.png",
+    "static/media/TarotTeller.png": "/react-portfolio/static/media/TarotTeller.39843035d65f9080b7bc.png",
+    "static/media/biopic.jpg": "/react-portfolio/static/media/biopic.e6d932e35870c2465328.jpg",
+    "static/media/RegexTutorial.png": "/react-portfolio/static/media/RegexTutorial.7306fd16894118a93612.png",
+    "static/media/PasswordGenerator.png": "/react-portfolio/static/media/PasswordGenerator.4c85154e5b467ef83b8f.png",
+    "static/media/NoteTaker.png": "/react-portfolio/static/media/NoteTaker.499a6ad52640d1520fe3.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.9fcd4491.css.map": "/react-portfolio/static/css/main.9fcd4491.css.map",
+    "main.f8d168cd.js.map": "/react-portfolio/static/js/main.f8d168cd.js.map"
   },
   "entrypoints": [
     "static/css/main.9fcd4491.css",
-    "static/js/main.92dc4fd5.js"
+    "static/js/main.f8d168cd.js"
   ]
 }
