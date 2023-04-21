@@ -8,14 +8,26 @@ const AboutMe = () => {
         <div className="col">
           <h1>Helen Louise Evans</h1>
           <h2>Former air traffic controller, future web dev.</h2>
+          <h4>Work Experience</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Air Traffic Control Specialist, Federal Aviation Administration
+            <br />
+            November 2006 - February 2021
+          </p>
+          <h4>Education</h4>
+          <p>
+            University of Oregon
+            <br />
+            Full Stack Coding Bootcamp
+            <br />
+            September 2022 - April 2023
+          </p>
+          <p>
+            Southern Illinois University
+            <br />
+            Bachelor's of Science in Aviation Management
+            <br />
+            August 1998 - August 2002
           </p>
         </div>
         <div className="col">
