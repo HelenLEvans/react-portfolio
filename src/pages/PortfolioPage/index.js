@@ -4,6 +4,7 @@ import TarotTeller from "../../images/TarotTeller.png";
 import NoteTaker from "../../images/NoteTaker.png";
 import RegexTutorial from "../../images/RegexTutorial.png";
 import PasswordGenerator from "../../images/PasswordGenerator.png";
+import HelloStranger from "../../images/HelloStranger.png";
 //ES6 function
 const PortfolioPage = () => {
   // I can interact with data in here
@@ -44,6 +45,13 @@ const PortfolioPage = () => {
       deployedLink: "https://helenlevans.github.io/password-generator/",
       githubLink: "https://github.com/HelenLEvans/password-generator",
       imageLink: PasswordGenerator,
+    },
+    {
+      title: "Hello Stranger",
+      description: "A social media app that's all about positivity",
+      deployedLink: "https://hello--stranger.herokuapp.com/",
+      githubLink: "https://github.com/HelenLEvans/ludicrous-speed",
+      imageLink: HelloStranger,
     },
   ];
 
